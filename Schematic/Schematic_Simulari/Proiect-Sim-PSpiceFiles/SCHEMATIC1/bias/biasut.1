@@ -1,0 +1,116 @@
+
+**** 12/14/24 04:40:25 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\emiba\OneDrive\Desktop\P1_B_N1\proiect-sim-pspicefiles\schematic1\bias.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "bias.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+.INC "C:\Users\emiba\OneDrive\Desktop\P1_B_N1\proiect-sim-pspicefiles\schematic1\bias\bias_profile.inc" 
+* Local Libraries :
+
+**** INCLUDING bias_profile.inc ****
+.LIB    ".\tkstub86.lib" 
+.LIB    ".\tk86.lib" 
+.LIB    ".\tclstub86.lib" 
+
+**** RESUMING bias.cir ****
+.LIB "C:/Cadence/SPB_17.2/tools/lib/tk86.lib" 
+.LIB "C:/Cadence/SPB_17.2/tools/lib/tclstub86.lib" 
+.LIB "C:/Cadence/SPB_17.2/tools/lib/tcl86.lib" 
+.LIB "C:/Cadence/SPB_17.2/tools/lib/itclstub40.lib" 
+* From [PSPICE NETLIST] section of C:\Users\emiba\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 1 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PROIECT-SIM
+R_R23         0 VOUT  22 TC=0,0 
+R_R18         N972291 N97203  220 TC=0,0 
+Q_Q18         N97319 N97209 N97037 QBC856B 
+R_R21         N97547 N98151  10 TC=0,0 
+Q_Q12         N98141 N98245 0 QBC846B 
+R_R4         N97531 N97319  22k TC=0,0 
+R_R1         N97209 N97037  51 TC=0,0 
+Q_Q8         N97419 N97589 N97531 QBC846B 
+Q_Q15         N97415 N97319 N972291 QBC856B 
+R_R17         N97419 N97547  1k TC=0,0 
+R_R6         N97537 VIN  1k TC=0,0 
+R_R8         0 N97547  10k TC=0,0 
+R_R20         N97203 N97037  82 TC=0,0 
+Q_Q17         N97531 N97893 N97359 QBC856B 
+R_R11         N98169 N97531  330 TC=0,0 
+R_R12         N97213 N97037  330 TC=0,0 
+R_R9         N97531 N97893  1k TC=0,0 
+R_R14         N98245 N98239  10k TC=0,0 
+R_R15         N98151 N98141  10 TC=0,0 
+R_R22         VOUT N97685  68 TC=0,0 
+Q_Q9         N97589 N97593 N97531 QBC846B 
+Q_Q2         N97037 N97217 N97359 QBC846B 
+R_R5         N97685 N97359  510 TC=0,0 
+Q_Q16         N97419 N97319 N97209 QBC856B 
+X_D4         N97531 N98169 LED PARAMS: IS=2.6404e-027 RS=2  BV=5 IBV=10e-6     
++     
+R_R2         N97217 N97037  1k TC=0,0 
+X_D5         N97213 N97037 LED PARAMS: IS=2.6404e-027 RS=2  BV=5 IBV=10e-6     
++     
+C_C1         N97589 N97419  47p  TC=0,0 
+V_V1         N98239 0 1
+V_V2         0 N98169 11
+V_V3         N97213 0 11
+V_V4         VIN 0  
++SIN 0 10m 1k 0 0 0
+Q_Q13         N97589 N97537 N97415 QBC856B 
+Q_Q14         N97593 N97547 N97415 QBC856B 
+Q_Q19         N97593 N97593 N97531 QBC846B 
+X_U5         N97419 N97893 1N4148 
+X_U6         N97217 N97419 1N4148 
+
+**** RESUMING bias.cir ****
+.END
+
+ERROR(ORPSIM-15113): Model QBC856B used by Q_Q18 is undefined
+
+ERROR(ORPSIM-15113): Model QBC846B used by Q_Q12 is undefined
+
+ERROR(ORPSIM-15113): Model QBC846B used by Q_Q8 is undefined
+
+ERROR(ORPSIM-15113): Model QBC856B used by Q_Q15 is undefined
+
+ERROR(ORPSIM-15113): Model QBC856B used by Q_Q17 is undefined
+
+ERROR(ORPSIM-15113): Model QBC846B used by Q_Q9 is undefined
+
+ERROR(ORPSIM-15113): Model QBC846B used by Q_Q2 is undefined
+
+ERROR(ORPSIM-15113): Model QBC856B used by Q_Q16 is undefined
+
+ERROR(ORPSIM-15113): Model QBC856B used by Q_Q13 is undefined
+
+ERROR(ORPSIM-15113): Model QBC856B used by Q_Q14 is undefined
+
+ERROR(ORPSIM-15113): Model QBC846B used by Q_Q19 is undefined
+
+
+ERROR(ORPSIM-15108): Subcircuit 1N4148 used by X_U5 is undefined
+
+ERROR(ORPSIM-15108): Subcircuit 1N4148 used by X_U6 is undefined
+

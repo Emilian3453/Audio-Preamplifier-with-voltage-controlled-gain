@@ -1,0 +1,83 @@
+
+**** 12/14/24 11:35:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\emiba\OneDrive\Desktop\P1_B_N1\proiect-sim-pspicefiles\schematic1\bias.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "bias.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../lib_modelepspice_anexa_1_a/modele_a1_lib/bc856b.lib" 
+.LIB "../../../lib_modelepspice_anexa_1_a/modele_a1_lib/bc846b.lib" 
+.LIB "../../../proiect-sim-pspicefiles/schematic1/test/1n4148.lib" 
+* From [PSPICE NETLIST] section of C:\Users\emiba\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 10ns 0 1u 
+.FOUR  
+-------$
+ERROR(ORPSIM-16477): Missing frequency
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PROIECT-SIM
+R_R11         N105676 N105018  330 TC=0,0 
+Q_Q15         N104902 N104794 N1047041 QBC856B 
+Q_Q14         N105080 N105034 N104902 QBC856B 
+R_R17         N104906 N105034  1k TC=0,0 
+Q_Q13         N105076 N105028 N104902 QBC856B 
+Q_Q18         N104794 N104684 N104504 QBC856B 
+R_R20         N104678 N104504  82 TC=0,0 
+Q_Q12         N105648 N105752 0 QBC846B 
+R_R4         N105018 N104794  22k TC=0,0 
+R_R21         N105034 N105658  10 TC=0,0 
+Q_Q8         N104906 N105076 N105018 QBC846B 
+R_R6         N105028 N114071  1k TC=0,0 
+R_R9         N105018 N105392  1k TC=0,0 
+R_R12         N104688 N104504  330 TC=0,0 
+Q_Q2         N104504 N104692 N104834 QBC846B 
+R_R18         N1047041 N104678  220 TC=0,0 
+R_R22         N105280 N105172  68 TC=0,0 
+R_R5         N105172 N104834  510 TC=0,0 
+R_R15         N105658 N105648  10 TC=0,0 
+Q_Q10         N105080 N105080 N105018 QBC846B 
+R_R2         N104692 N104504  1k TC=0,0 
+Q_Q16         N104906 N104794 N104684 QBC856B 
+C_C1         N105076 N104906  47p  TC=0,0 
+R_R14         N105752 N105746  10k TC=0,0 
+R_R23         0 N105280  22 TC=0,0 
+X_D5         N104504 N104688 LED PARAMS: IS=2.6404e-027 RS=2  BV=5 IBV=10e-6   
++       
+Q_Q17         N105018 N105392 N104834 QBC856B 
+R_R8         0 N105034  10k TC=0,0 
+Q_Q9         N105076 N105080 N105018 QBC846B 
+R_R1         N104684 N104504  51 TC=0,0 
+X_U4         N105392 N104906 1N4148 
+X_U5         N104906 N104692 1N4148 
+V_V4         N105746 0 0
+V_V5         0 N105676 11
+V_V6         N104688 0 11
+X_D4         N105676 N105018 LED PARAMS: IS=2.6404e-027 RS=2  BV=5 IBV=10e-6   
++       
+V_V7         N114071 0  
++SIN 0 10m 1k 0 0 0
+
+**** RESUMING bias.cir ****
+.END
+
