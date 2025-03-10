@@ -1,0 +1,97 @@
+\t (00:00:07) allegro 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:07)     Journal start - Wed Jan 15 19:10:09 2025
+\t (00:00:07)         Host=EMILIANULBOMBA User=emiba Pid=11568 CPUs=4
+\t (00:00:07) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:07) 
+   (00:00:07) Loading axlcore.cxt 
+\t (00:00:07) Opening existing design...
+\e (00:00:07) ERROR(SPMHDB-180): Design revision 18.x is newer than current program version.
+\e (00:00:07) ERROR(SPMHDB-180): Design revision 18.x is newer than current program version.
+\i (00:00:41) fillin confirm
+\t (00:00:41) Starting new design...
+\i (00:00:42) trapsize 703
+\i (00:00:42) trapsize 720
+\i (00:00:42) trapsize 1196
+\i (00:00:43) trapsize 1012
+\i (00:00:43) trapsize 737
+\i (00:00:43) generaledit 
+\i (00:01:11) setwindow form.mini
+\i (00:01:11) FORM mini subclass TOP_ROOM 
+\i (00:01:59) setwindow pcb
+\i (00:01:59) board outline 
+   (00:02:00) Loading floor.cxt 
+   (00:02:00) Loading fputil.cxt 
+\i (00:02:01) setwindow form.fpbdoutline
+\i (00:02:01) FORM fpbdoutline fpboedit YES 
+\i (00:02:03) fillin confirm
+\i (00:02:03) setwindow pcb
+\i (00:02:03) pick grid 10564.3 7528.6
+\t (00:02:03) last pick:  10600.0 7500.0
+\i (00:02:04) pick grid 13215.5 7285.7
+\t (00:02:04) last pick:  13200.0 7300.0
+\i (00:02:05) fillin confirm
+\i (00:02:07) setwindow form.fpbdoutline
+\i (00:02:07) FORM fpbdoutline fpbocreate YES 
+\i (00:02:08) fillin no 
+\i (00:02:10) FORM fpbdoutline done  
+\i (00:02:11) fillin confirm
+\i (00:02:11) setwindow pcb
+\i (00:02:11) generaledit 
+\i (00:02:15) drag_start grid 9471.4 9167.8
+\i (00:02:16) drag_stop 16028.6 4088.1
+\e (00:02:16) Command not found: Del
+\i (00:02:17) pick grid 11636.9 9309.5
+\t (00:02:17) last pick:  11600.0 9300.0
+\i (00:02:19) trapsize 1290
+\i (00:02:20) trapsize 850
+\i (00:02:24) board outline 
+\i (00:02:25) setwindow form.fpbdoutline
+\i (00:02:25) FORM fpbdoutline fpbocreate YES 
+\i (00:02:27) fillin yes 
+\i (00:02:28) fillin confirm
+\i (00:02:30) FORM fpbdoutline fpboplacerect YES 
+\i (00:02:32) FORM fpbdoutline apply  
+\i (00:02:33) fillin confirm
+\i (00:02:34) setwindow pcb
+\i (00:02:34) pick grid 1020.1 1887.3
+\t (00:02:34) last pick:  1000.0 1900.0
+\i (00:02:35) fillin confirm
+\i (00:02:36) setwindow form.fpbdoutline
+\i (00:02:36) FORM fpbdoutline fpboedit YES 
+\i (00:02:37) fillin confirm
+\i (00:02:37) FORM fpbdoutline fpbomove YES 
+\i (00:02:39) fillin confirm
+\i (00:03:44) FORM fpbdoutline cancel  
+\i (00:03:44) setwindow pcb
+\i (00:03:44) generaledit 
+\i (00:03:45) datatips toggle 
+\i (00:03:46) datatips toggle 
+\i (00:03:50) setwindow form.mini
+\i (00:03:50) FORM mini class PACKAGE GEOMETRY 
+\i (00:04:14) setwindow pcb
+\i (00:04:14) shape add rect 
+\i (00:04:52) shape add rect 
+\i (00:06:58) prepopup 12513.8 9283.3
+\i (00:06:58) done 
+\i (00:06:59) generaledit 
+\i (00:06:59) prepopup 12241.7 9997.4
+\i (00:08:22) prepopup 15013.1 11527.6
+\i (00:08:34) prepopup 13738.0 11323.6
+\i (00:08:37) pop dyn_option_select 'Super filter@:@Net' 
+\i (00:08:38) prepopup 15455.2 10966.6
+\i (00:08:45) Esc 
+\i (00:08:59) prepopup 11561.6 11323.6
+\i (00:09:04) pick grid 13227.9 3995.6
+\t (00:09:04) last pick:  13200.0 4000.0
+\i (00:10:08) prepopup 14707.1 11799.7
+\i (00:10:28) prepopup 13431.9 9606.4
+\i (00:10:31) pick grid 6664.9 12751.8
+\t (00:10:31) last pick:  6700.0 12800.0
+\i (00:10:34) setwindow form.mini
+\i (00:10:34) FORM mini class ANTI ETCH 
+\i (00:10:44) FORM mini class ETCH 
+\i (00:28:18) setwindow pcb
+\i (00:28:18) exit 
+\e (00:28:19) Do you want to save the changes you made to unnamed?
+\i (00:28:19) fillin no 
+\t (00:28:20)     Journal end - Wed Jan 15 19:38:23 2025

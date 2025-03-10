@@ -1,0 +1,120 @@
+\t (00:00:02) allegro 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Sun Dec 15 15:51:00 2024
+\t (00:00:02)         Host=EMILIANULBOMBA User=emiba Pid=828 CPUs=4
+\t (00:00:02) CmdLine= c:\cadence\orcadx_24.1\tools\bin\allegro.exe -mpssession emiba -proj C:\Users\emiba\OneDrive\Desktop\P1_B_N1\P1_B_N1.opj C:\Users\emiba\OneDrive\Desktop\P1_B_N1\allegro\p1_b_n1.brd
+\t (00:00:02) 
+\t (00:00:02) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\i (00:00:05) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "p1_b_n1"
+\d (00:00:05) Design opened: C:/Users/emiba/OneDrive/Desktop/P1_B_N1/allegro/p1_b_n1.brd
+\t (00:00:05) Grids are drawn 0.640, 0.640 apart for enhanced viewing.
+\i (00:00:05) trapsize 467
+\i (00:00:06) trapsize 483
+\i (00:00:06) trapsize 467
+\t (00:00:06) Grids are drawn 0.640, 0.640 apart for enhanced viewing.
+\t (00:00:06) Grids are drawn 0.320, 0.320 apart for enhanced viewing.
+\i (00:00:06) trapsize 300
+\i (00:00:06) trapsize 307
+\i (00:00:06) trapsize 307
+\t (00:00:06) > Sending response DoneOpenBoard
+\i (00:00:07) generaledit 
+\i (00:00:13) artwork 
+\i (00:00:15) setwindow form.film_control
+\i (00:00:15) FORM film_control filmtree  FAB 
+\i (00:00:59) setwindow pcb
+\i (00:00:59) color192 
+\i (00:01:01) QtSignal CVDLayerContainer CVDVisibilityOff clicked
+\i (00:01:02) QtSignal CVDTabs CVDLayerContainer keyPressEvent 16777252 0 false 1
+\i (00:01:02) QtSignal CVDTabs CVDLayerContainer keyPressEvent 16777252 0 false 1
+\i (00:01:04) QtSignal CVDLayerContainer CVDFilterLayerEntry editingFinished Cuto
+\i (00:01:04) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Cutout BrdGeo 1
+\i (00:01:04) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (00:01:04) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:01:06) zoom out 1 
+\i (00:01:06) setwindow pcb
+\i (00:01:06) zoom out 15.727 25.512
+\t (00:01:06) Grids are drawn 0.640, 0.640 apart for enhanced viewing.
+\i (00:01:06) trapsize 615
+\i (00:01:06) zoom out 1 
+\i (00:01:06) setwindow pcb
+\i (00:01:06) zoom out 15.851 25.513
+\t (00:01:06) Grids are drawn 1.280, 1.280 apart for enhanced viewing.
+\i (00:01:06) trapsize 1230
+\i (00:01:06) zoom out 1 
+\i (00:01:06) setwindow pcb
+\i (00:01:06) zoom out -99.047 25.759
+\t (00:01:06) Grids are drawn 2.560, 2.560 apart for enhanced viewing.
+\i (00:01:06) trapsize 2459
+\i (00:01:07) zoom out 1 
+\i (00:01:07) setwindow pcb
+\i (00:01:07) zoom out -141.385 -39.897
+\i (00:01:07) trapsize 2459
+\i (00:01:07) zoom out 1 
+\i (00:01:07) setwindow pcb
+\i (00:01:07) zoom out -141.385 -43.832
+\i (00:01:07) trapsize 2459
+\i (00:01:16) QtFillin Yes
+\i (00:01:16) trapsize 2459
+\i (00:01:16) trapsize 2459
+\i (00:01:45) zoom out 1 
+\i (00:01:45) setwindow pcb
+\i (00:01:45) zoom out 10.581 -18.750
+\i (00:01:45) trapsize 2459
+\i (00:01:45) zoom out 1 
+\i (00:01:45) setwindow pcb
+\i (00:01:45) zoom out 6.647 -15.799
+\i (00:01:45) trapsize 2459
+\i (00:01:46) zoom out 1 
+\i (00:01:46) setwindow pcb
+\i (00:01:46) zoom out -34.173 5.840
+\i (00:01:46) trapsize 2459
+\i (00:01:46) zoom out 1 
+\i (00:01:46) setwindow pcb
+\i (00:01:46) zoom out -41.550 5.348
+\i (00:01:46) trapsize 2459
+\i (00:01:46) zoom out 1 
+\i (00:01:46) setwindow pcb
+\i (00:01:46) zoom out -54.336 8.299
+\i (00:01:46) trapsize 2459
+\i (00:01:46) color192 
+\i (00:01:51) trapsize 2459
+\i (00:01:51) trapsize 2459
+\i (00:07:54) xsection 
+\t (00:07:54) [15:58:52.258000] Periodic Lic check successful
+[15:58:52.258000] Feature usage summary:
+[15:58:52.258000] OrCAD_X_PCB_Professional_Plus
+[15:58:52.258000] OrCAD_X_Professional_Plus
+
+\i (00:08:05) QtSignal CCMQtXSectionDlg m_OkBtn clicked
+\i (00:08:05) QtSignal CCMQtXSectionDlg AddLayerDlg closed
+\i (00:08:06) zoom out 1 
+\i (00:08:06) setwindow pcb
+\i (00:08:06) zoom out -101.057 -119.077
+\t (00:08:06) Loading consmgr.cxt 
+\t (00:08:06) Loading acns_formula.cxt 
+\i (00:08:06) trapsize 2459
+\i (00:08:07) color192 
+\i (00:08:10) QtSignal CVDLayerContainer CVDVisibilityOn clicked
+\i (00:08:11) QtSignal ColorVisibilityDialog CVDApplyButton clicked
+\i (00:08:12) QtSignal ColorVisibilityDialog CVDOkButton clicked
+\i (00:20:32) exit 
+\t (00:20:32) [16:11:30.283000] Periodic Lic check successful
+[16:11:30.283000] Feature usage summary:
+[16:11:30.283000] OrCAD_X_PCB_Professional_Plus
+[16:11:30.283000] OrCAD_X_Professional_Plus
+
+\e (00:20:32) Do you want to save the changes you made to p1_b_n1.brd?
+\i (00:20:34) fillin menu_cancel 
+\i (00:20:34) generaledit 
+\i (00:20:35) save 
+\i (00:20:36) fillin yes 
+\t (00:20:37) > Sending response DoneOpenBoard
+\i (00:20:37) generaledit 
+\i (00:20:37) exit 
+\t (00:20:37) Lic Summary:
+[16:11:35.228712] Cdslmd servers:C:\Users\emiba\AppData\Roaming\Cadence\VBL\SPB\license\license.txt
+[16:11:35.775000] Feature usage summary:
+[16:11:35.775000] OrCAD_X_PCB_Professional_Plus
+[16:11:35.775000] OrCAD_X_Professional_Plus
+
+\t (00:20:37)     Journal end - Sun Dec 15 16:11:35 2024
